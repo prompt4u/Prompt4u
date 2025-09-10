@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>प्रॉम्प्ट एक्सप्लोर</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans Devanagari', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f2f2f2;
+            color: #333;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            background: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 20px;
+        }
+        .prompt-box {
+            background: white;
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 15px;
+            box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+        }
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🚀 प्रॉम्प्ट एक्सप्लोर में आपका स्वागत है</h1>
+        <p>यहाँ पाएँ सबसे बेहतरीन AI प्रॉम्प्ट्स हिंदी में</p>
+    </header>
+
+    <nav>
+        <a href="#">होम</a>
+        <a href="#">श्रेणियाँ</a>
+        <a href="#">आज का प्रॉम्प्ट</a>
+        <a href="#">संपर्क करें</a>
+    </nav>
+
+    <div class="container">
+        <h2>✨ आज का प्रॉम्प्ट</h2>
+        <div class="prompt-box">
+            <h3>📌 शिक्षा</h3>
+            <p><b>प्रॉम्प्ट:</b> "मुझे कक्षा 12 की हिंदी कविता 'आत्मकथा' का सार सरल शब्दों में समझाइए।"</p>
+        </div>
+
+        <div class="prompt-box">
+            <h3>📌 क्रिएटिव राइटिंग</h3>
+            <p><b>प्रॉम्प्ट:</b> "बारिश के दिन पर एक छोटी कहानी लिखिए।"</p>
+        </div>
+
+        <div class="prompt-box">
+            <h3>📌 कोडिंग</h3>
+            <p><b>प्रॉम्प्ट:</b> "Python में ऐसा प्रोग्राम लिखिए जो दो संख्याओं का LCM निकाले।"</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 प्रॉम्प्ट एक्सप्लोर | सभी अधिकार सुरक्षित</p>
+    </footer>
+
+</body>
+</html>
